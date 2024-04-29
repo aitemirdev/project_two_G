@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+body {
+    font-family: "Britannic Bold", sans-serif;
+    background: #000000FF;
+}
+
+.btn {
+    width: 250px;
+    height: 50px;
+    font-size: 20px;
+    cursor: pointer;
+    /*border: 1px solid var(--orange);*/
+    border: 1px solid #bf0079;
+    background: black;
+    /*color: var(--orange);*/
+    color: #f8b8cb;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background: #0241ff;
+}
+
+.btn:active {
+    background: #c9006f;
+    /*border: 2px solid var(--orange);*/
+    border: 5px solid #026090;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+h1 {
+    text-align: center;
+    font-size: 70px;
+    color: #026090;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h2 {
+    text-align: center;
+    font-size: 30px;
+    color: #f8b8cb;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    color: #f8b8cb;
+    margin: 0 auto;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+h4 {
+    font-size: 24px;
+    color: #f8b8cb;
+    text-transform: uppercase;
+    font-weight: 600;
+}
+
+strong {
+    color: #f8b8cb;
+}
+
+label {
+    font-size: 24px;
+    /*color: var(--orange);*/
+    color: #f8b8cb;
+}
+
+input {
+    width: 350px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 5px;
+    /*color: var(--orange);*/
+    color: #f8b8cb;
+    background: #040405;
+    /*border: 2px solid var(--orange);*/
+    border: 2px solid #bf0079;
+}
+
+.checker {
+    color: #f8b8cb;
+    font-size: 30px;
+}
+
+.btn-slide {
+    display: block;
+    width: 100px;
+    height: 100px;
+    /*background: var(--orange);*/
+    background: #c9006f;
+    color: #f8b8cb;
+    font-size: 20px;
+    text-transform: uppercase;
+    border-radius: 50%;
+    font-weight: 800;
+    z-index: 1;
+}
+
+.btn-slide:hover {
+    background: #bf0079 !important;
+    cursor: pointer;
+    color: white;
+}
+
+:root {
+    --orange: #f8b8cb;
+    --black: black;
+}
+
+
+/*test*/
+
+h2,
+h3,
+h1,
+a,
+p,
+button{
+    color: #fff;
+    text-shadow:
+            0 0 7px #fdf7fb,
+            0 0 10px #bf0079,
+            0 0 21px #bf0079,
+            0 0 42px #bf0079,
+            0 0 80px #bf0079,
+            0 0 90px #bf0079,
+            0 0 151px #040405;
+
+}
+input,
+button{
+    color: white;
+    box-shadow:  0 0 7px #fff,
+    0 0 10px #bf0079,
+    0 0 21px #bf0079,
+    0 0 30px #bf0079,
+    0 0 76px #bf0079,
+    0 0 151px #040405;;
+}
